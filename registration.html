@@ -28,11 +28,69 @@
 </td>
 </tr>
 <tr>
+<tr>
+<td align ="left"> Email:</td>
+</tr>
+<tr>
+<td>
+<input type="text" id="email" name="email" placeholder="Enter your Email here"/>
+</td>
+</tr>
+<tr>
+<td align ="left"> Name:</td>
+</tr>
+<tr>
+<td>
+<input type="text" id="fname" name="fname" placeholder="Enter your first name here"/>
+</td>
+<input type="text" id="lname" name="lname" placeholder="Enter your last name here"/>
+</tr>
+<tr>
+<td align ="left"> Gender </td>
+<td>
+<input type="radio" 
+id="male" 
+name="male"
+value = "male"
+selected="selected"/>
+<label for="male">Male</label>
+<input type="radio"
+id="female" 
+name="female"
+value="female"/>
+<label for="female">Female</label>
+<input type="radio"
+id="others" 
+name="others"
+value="others"/>
+<label for="others">Others</label>            
+</td>
+<tr>
 <td align ="left"> Birthday:</td>
 </tr>
 <tr>
 <td>
 <input type="date">
+</td>
+</tr>
+<tr>
+<td colspan="2">
+Register 
+<select name="drpLoginType" id="drpLoginType">
+<option value="betatest">for Trial Run</option>
+<option value="alphatest">for Full Package</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" id="termsandcon" name="termsandcon" value="termsandcon"/>
+<label for="termsandcon">I accept the terms and conditions.</label>
+</td>
+<tr>
+<td colspan="2">
+<input type="checkbox" id="emailsubs" name="emailsubs" value="emailsubs"/>
+<label for="emailsubs">Sign up for the newsletter.</label>
 </td>
 </tr>
 
