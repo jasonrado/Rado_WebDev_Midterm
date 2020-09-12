@@ -1,14 +1,22 @@
  <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=">
+<title>Vission,Mission and Goals</title>
+</head>
 <body>
-
+<center>
+<h1>University of the Immaculate</h1>
+<h2>Vission and Mission</h2>
 <video width="400" controls>
-  <source src="video.mp4" type="video/mp4">
+  <source src="https://jasonrado.github.io/Rado_WebDev_Midterm/video.mp4" type="video/mp4">
   Your browser does not support HTML video.
 </video>
-
+<p>Sorry if naka mask sir kay pula kaayo akong ilong sir kay gi sipon ko :).
+<h2>Goals</h2>
 <audio controls>
-  <source src="audio.mp3" type="audio/mpeg">
+  <source src="https://jasonrado.github.io/Rado_WebDev_Midterm/audio.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
