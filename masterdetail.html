@@ -123,7 +123,7 @@
             <div class="mitem" onclick="select(this)"><a href="wishlist.html" target="act">Wishlist</div>
             <div class="mitem" onclick="select(this)"><a href="calendar.html" target="act">Calendar</div>
             <div class="mitem" onclick="select(this)"><a href="registration.html" target="act">Registration</div>
-            <div class="mitem" onclick="select(this)"><a href="vmg.html" target="act">Registration</div>
+            <div class="mitem" onclick="select(this)"><a href="vmg.html" target="act">VMG</div>
         </div>
         <div  class="col-9 detail">
             <button id="back-btn" class="hidden-md" onclick="back()">< Back</button>
@@ -131,31 +131,6 @@
             <iframe src="Activities.html" name="act" frameborder=""height="100%" width="100%"></iframe>
         </div>
       </div>
-<script> 
-        const detail = document.querySelector('.detail');
-        const detailTitle = document.querySelector('.detail-title');
-        const items = document.querySelectorAll('.mitem');
-
-        function select(selected){
-            //Remove active class from all master-items
-            for(var item of items){
-                item.classList.remove('active-item');
-            }
-            //Make selected tab active
-            selected.classList.add('active-item');
-            //Toggle the class that hides when the screen is medium size or less
-            detail.classList.remove('hidden-md-down');
-            //Set the content of the detail to the innerHTML of the selected item
-            detailTitle.innerHTML = selected.innerHTML;
-        }
-
-        function back(){
-            //Remove active class from all master-items
-            for(var item of items){
-                item.classList.remove('active-item');
-            }
-            detail.classList.add('hidden-md-down');
-        }
-    </script>
+                <script src="test.js"></script>
     </body>
     </html>
