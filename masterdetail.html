@@ -11,7 +11,7 @@
     color: #4CD4B0;
     
 }
-.mitem {
+.master-item {
     font-size: 24px;
     border-bottom: 2px solid #4CD4B0;
     padding: 15px;
@@ -22,7 +22,7 @@
 .text-center {
     text-align: center;
 }
-.mitem:hover, .active-item {
+.master-item:hover, .active-item {
     background: #4CD4B0;
     color: white;
     cursor: pointer
@@ -118,27 +118,26 @@
     
 <div class="md-container">
         <div class="col-3 master">
-            <div class="mitem active-item" onclick="select(this)"><a href="Activities.html" target="act">Activities</div>
-            <div class="mitem" onclick="select(this)"><a href="poem.html" target="act">Poem</div>
-            <div class="mitem" onclick="select(this)"><a href="markup.html" target="act">Markup</div>
-            <div class="mitem" onclick="select(this)"><a href="wishlist.html" target="act">Wishlist</div>
-            <div class="mitem" onclick="select(this)"><a href="calendar.html" target="act">Calendar</div>
-            <div class="mitem" onclick="select(this)"><a href="registration.html" target="act">Registration</div>
-            <div class="mitem" onclick="select(this)"><a href="vmg.html" target="act">VMG</div>
+            <div class="master-item active-ite active-item" onclick="select(this)"><a href="Activities.html" target="act">Activities</div>
+            <div class="master-item" onclick="select(this)"><a href="poem.html" target="act">Poem</div>
+            <div class="master-item" onclick="select(this)"><a href="markup.html" target="act">Markup</div>
+            <div class="master-item" onclick="select(this)"><a href="wishlist.html" target="act">Wishlist</div>
+            <div class="master-item" onclick="select(this)"><a href="calendar.html" target="act">Calendar</div>
+            <div class="master-item" onclick="select(this)"><a href="registration.html" target="act">Registration</div>
+            <div class="master-item" onclick="select(this)"><a href="vmg.html" target="act">VMG</div>
         </div>     
         <div  class="col-9 detail">
             <h1 class="detail-title text-center">Activities</h1>
             <iframe src="Activities.html" name="act" frameborder=""height="100%" width="100%"></iframe>
         </div>
       </div>
-                <a href="Activities.html" target="act"></a>
-    <script>const detail = document.querySelector('.detail');
+    <script>        const detail = document.querySelector('.detail');
         const detailTitle = document.querySelector('.detail-title');
-        const items = document.querySelectorAll('.mitem');
+        const masterItems = document.querySelectorAll('.master-item');
 
         function select(selected){
             //Remove active class from all master-items
-            for(var item of items){
+            for(var item of masterItems){
                 item.classList.remove('active-item');
             }
             //Make selected tab active
@@ -151,7 +150,7 @@
 
         function back(){
             //Remove active class from all master-items
-            for(var item of items){
+            for(var item of masterItems){
                 item.classList.remove('active-item');
             }
             detail.classList.add('hidden-md-down');
