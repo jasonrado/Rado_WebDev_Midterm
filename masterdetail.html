@@ -5,26 +5,26 @@
         <meta charset="utf-8">
 <style>
 .title {
-    font-size: 32px;
-    border-bottom: 2px solid #4CD4B0;
+    font-size: 50px;
+    border-bottom: 2px solid black;
     padding: 15px;
-    color: #4CD4B0;
+    color: black;
     
 }
 .master-item {
     font-size: 24px;
-    border-bottom: 2px solid #4CD4B0;
+    border-bottom: 2px solid black;
     padding: 15px;
     background: white;
-    color:#4CD4B0; 
+    color:red; 
 }
 
 .text-center {
     text-align: center;
 }
 .master-item:hover, .active-item {
-    background: #4CD4B0;
-    color: white;
+    background: white;
+    color: black;
     cursor: pointer
 }
 
@@ -54,7 +54,7 @@
     box-sizing: border-box;
     position: absolute;
     z-index: 11;
-    color: #4CD4B0;
+    color: black;
     height: 100vh;
     background: white
 }
@@ -63,22 +63,6 @@
     position: relative;
 }
 
-#back-btn {
-    color: #4CD4B0;
-    border: 1px solid #4CD4B0;
-    background: white;
-    border-radius: 5px;
-    padding: 5px 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#back-btn:hover {
-    cursor: pointer;
-    color: white;
-    background: #4CD4B0;
-}
 
 
 /* For 786 and above: */
@@ -106,18 +90,18 @@
     }
 
     .master{
-        border-right: 3px solid #4CD4B0;
+        border-right: 3px solid black;
     }
 }
         </style>
     </head>
 <body >
 <center>
-    <h1>Master Detail Pattern</h1>
-    </center>
+    <h1 class="title">Master Detail Pattern</h1>
+  </center>
 <div class="md-container">
         <div class="col-3 master">
-            <div class="mitem active-item" onclick="select(this)"><a href="activities.html" target="iname">Activities</div>
+            <div class="mitem active-item" onclick="select(this)"><a href="Activities.html" target="iname">Activities</div>
             <div class="mitem" onclick="select(this)"><a href="poem.html" target="iname">Poem</div>
             <div class="mitem" onclick="select(this)"><a href="markup.html" target="iname">Markup</div>
             <div class="mitem" onclick="select(this)"><a href="wishlist.html" target="iname">Wishlist</div>
@@ -127,7 +111,7 @@
         </div>
         <div  class="col-9 detail">
             <h1 class="detail-title text-center">Activities</h1>
-            <iframe src="activies.html" name="iname" frameborder=""height="100%" width="100%"></iframe>
+            <iframe src="Activities.html" name="iname" frameborder=""height="100%" width="100%"></iframe>
         </div>
       </div>
 <script> 
