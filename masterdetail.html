@@ -118,12 +118,12 @@
 <div class="container">
     <div class="activitiess">
     <div class="item2"><strong>Activities</strong></div>
-        <div class="item" onclick="select(this)">Poem</div>
-        <div class="item" onclick="select(this)">Markup</div>
-        <div class="item" onclick="select(this)">Wishlist</div>
-        <div class="item" onclick="select(this)">Calendar</div>
-        <div class="item" onclick="select(this)">Registration</div>
-        <div class="item" onclick="select(this)">VMG</div>
+        <div class="mitem" onclick="select(this)">Poem</div>
+        <div class="mitem" onclick="select(this)">Markup</div>
+        <div class="mitem" onclick="select(this)">Wishlist</div>
+        <div class="mitem" onclick="select(this)">Calendar</div>
+        <div class="mitem" onclick="select(this)">Registration</div>
+        <div class="mitem" onclick="select(this)">VMG</div>
     </div>
      <div  class="col-9 detail">
             <button id="back-btn" class="hidden-md" onclick="back()">< Back</button>
@@ -133,11 +133,11 @@
 <script> 
         const detail = document.querySelector('.detail');
         const detailTitle = document.querySelector('.detail-title');
-        const masterItems = document.querySelectorAll('.master-item');
+        const items = document.querySelectorAll('.mitem');
 
         function select(selected){
             //Remove active class from all master-items
-            for(var item of masterItems){
+            for(var item of items){
                 item.classList.remove('active-item');
             }
             //Make selected tab active
@@ -150,7 +150,7 @@
 
         function back(){
             //Remove active class from all master-items
-            for(var item of masterItems){
+            for(var item of items){
                 item.classList.remove('active-item');
             }
             detail.classList.add('hidden-md-down');
