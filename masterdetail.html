@@ -15,7 +15,7 @@
     font-size: 24px;
     border-bottom: 2px solid black;
     padding: 15px;
-    background: white;
+    background: gray;
     color:black; 
 }
 
@@ -23,7 +23,7 @@
     text-align: center;
 }
 .master-item:hover, .active-item {
-    background: black;
+    background: gray;
     color: white;
     cursor: pointer
 }
@@ -63,24 +63,6 @@
     position: relative;
 }
 
-#back-btn {
-    color: black;
-    border: 1px solid black;
-    background: white;
-    border-radius: 5px;
-    padding: 5px 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#back-btn:hover {
-    cursor: pointer;
-    color: black;
-    background: white;
-}
-
-
 /* For 786 and above: */
 @media only screen and (min-width: 768px) {
    
@@ -112,10 +94,7 @@
         </style>
     </head>
 <body>
-<center>
      <h1 class="title text-center">Master Detail Pattern</h1>
-  </center>
-    
 <div class="md-container">
         <div class="col-3 master">
             <div class="master-item active-ite active-item" onclick="select(this)"><a href="Activities.html" target="act">Activities</a></div>
@@ -127,7 +106,6 @@
             <div class="master-item" onclick="select(this)"><a href="vmg.html" target="act">VMG</a></div>
         </div>     
         <div  class="col-9 detail">
-               <button id="back-btn" class="hidden-md" onclick="back()">< Back</button>
             <h1 class="detail-title text-center">Activities</h1>
             <iframe src="Activities.html" name="act" frameborder=""height="100%" width="100%"></iframe>
         </div>
@@ -148,7 +126,6 @@
             //Set the content of the detail to the innerHTML of the selected item
             detailTitle.innerHTML = selected.innerHTML;
         }
-
         function back(){
             //Remove active class from all master-items
             for(var item of masterItems){
