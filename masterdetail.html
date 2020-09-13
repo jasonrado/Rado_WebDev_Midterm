@@ -111,11 +111,13 @@
 }
         </style>
     </head>
-<body >
+<body>
 <center>
     <h1 class="title">Master Detail Pattern</h1>
   </center>
+    
 <div class="md-container">
+    
         <div class="col-3 master">
             <div class="mitem active-item" onclick="select(this)"><a href="activities.html" target="act">Activities</div>
             <div class="mitem" onclick="select(this)"><a href="poem.html" target="act">Poem</div>
@@ -125,12 +127,13 @@
             <div class="mitem" onclick="select(this)"><a href="registration.html" target="act">Registration</div>
             <div class="mitem" onclick="select(this)"><a href="vmg.html" target="act">VMG</div>
         </div>
+                
         <div  class="col-9 detail">
-            <button id="back-btn" class="hidden-md" onclick="back()">< Back</button>
+            <button id="back-btn" class="hidden-md" onclick="back()"><Back</button>
             <h1 class="detail-title text-center">Activities</h1>
-            <iframe src="Activities.html" name="act" frameborder=""height="100%" width="100%"></iframe>
+            <iframe src="activities.html" name="act" frameborder=""height="100%" width="100%"></iframe>
         </div>
       </div>
-                <script src="test.js"></script>
+    <script src="test.js"></script>
     </body>
     </html>
