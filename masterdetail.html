@@ -91,7 +91,17 @@
         border-right: 3px solid black;
     }
 }
-A {text-decoration: none;} 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
         </style>
     </head>
 <body>
@@ -99,13 +109,13 @@ A {text-decoration: none;}
      <h1 class="title text-center">Master Detail Pattern</h1>
 <div class="md-container">
         <div class="col-3 master">
-            <div class="master-item active-ite active-item" onclick="select(this)"><a style="text-decoration:none" href="Activities.html" target="act">Activities</a></div>
-            <div class="master-item" onclick="select(this)"><a style="text-decoration:none" href="poem.html" target="act">Poem</a></div>
-            <div class="master-item" onclick="select(this)"><a style="text-decoration:none" href="markup.html" target="act">Markup</a></div>
-            <div class="master-item" onclick="select(this)"><a style="text-decoration:none" href="wishlist.html" target="act">Wishlist</a></div>
-            <div class="master-item" onclick="select(this)"><a style="text-decoration:none" href="calendar.html" target="act">Calendar</a></div>
-            <div class="master-item" onclick="select(this)"><a style="text-decoration:none" color:inherit" href="registration.html" target="act">Registration</a></div>
-            <div class="master-item" onclick="select(this)"><a style="text-decoration:none" color:inherit" href="vmg.html" target="act">VMG</a></div>
+            <div class="master-item active-ite active-item" onclick="select(this)"><a href="Activities.html" target="act">Activities</a></div>
+            <div class="master-item" onclick="select(this)"><a href="poem.html" target="act">Poem</a></div>
+            <div class="master-item" onclick="select(this)"><a href="markup.html" target="act">Markup</a></div>
+            <div class="master-item" onclick="select(this)"><a href="wishlist.html" target="act">Wishlist</a></div>
+            <div class="master-item" onclick="select(this)"><a href="calendar.html" target="act">Calendar</a></div>
+            <div class="master-item" onclick="select(this)"><a href="registration.html" target="act">Registration</a></div>
+            <div class="master-item" onclick="select(this)"><a href="vmg.html" target="act">VMG</a></div>
         </div>     
         <div  class="col-9 detail">
             <h1 class="detail-title text-center">Activities</h1>
