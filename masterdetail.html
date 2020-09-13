@@ -62,6 +62,22 @@
 .md-container  {
     position: relative;
 }
+#back-btn {
+    color: #4CD4B0;
+    border: 1px solid #4CD4B0;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#back-btn:hover {
+    cursor: pointer;
+    color: white;
+    background: #4CD4B0;
+}
 
 
 
@@ -109,6 +125,7 @@
             <div class="mitem" onclick="select(this)"><a href="registration.html" target="act">Registration</div>
         </div>
         <div  class="col-9 detail">
+            <button id="back-btn" class="hidden-md" onclick="back()">< Back</button>
             <h1 class="detail-title text-center">Activities</h1>
             <iframe src="Activities.html" name="act" frameborder=""height="100%" width="100%"></iframe>
         </div>
