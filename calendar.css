@@ -7,15 +7,6 @@ background - repeat : no-repeat;
 background-color: teal;
 max-width: 400px; 
 margin: auto; 
-body{
-background-color: teal;
-background-image: url(https://jasonrado.github.io/Rado_WebDev_Midterm/calendar.jpg);
-background - repeat : no-repeat;
-}
-.container {
-background-color: teal;
-max-width: 400px; 
-margin: auto; 
 display: flex;
 justify-content: center;
 align-items:center;
