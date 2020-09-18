@@ -7,9 +7,6 @@ background - repeat : no-repeat;
 background-color: teal;
 max-width: 400px; 
 margin: auto; 
-display: flex;
-justify-content: center;
-align-items:center;
 }
 .month {
         text-allign: center;
