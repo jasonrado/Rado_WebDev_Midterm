@@ -1,81 +1,59 @@
+*{
+    font-family: verdana;
+}
 body{
 background-color: teal;
 background-image: url(https://jasonrado.github.io/Rado_WebDev_Midterm/calendar.jpg);
 background - repeat : no-repeat;
 }
 .container {
-background-color: teal;
-max-width: 400px; 
+background-color: transparent;
+max-width: 550px; 
 margin: auto; 
 display: flex;
 justify-content: center;
 align-items:center;
+border-collapse: collapse; 
+ border: 1px solid teal;   
+}
+.container2 {
+background-color: transparent;
+max-width: 550px; 
+margin: auto; 
+display: flex;
+justify-content: center;
+align-items:center;
+border-collapse: collapse; 
+ border: 1px solid teal;   
 }
 .month {
         text-allign: center;
-        background-color: teal;
+        background-color: transparent;
         font-size: 2em; 
         letter-spacing: 5px; 
-        color: white; 
+        color: red; 
         padding: 25px; 
-
       }
 table, th, td {
-        width: 100%; 
+        width: auto; 
         table-layout:fixed; 
         text-allign: center; 
-        font-size: 16px; 
+        font-size: 20px; 
         border-collapse: collapse; 
-        border: 1px solid black;   
+        border: 1px solid teal;   
       }
  tr, th, td {
         padding: 20px;
       }
       th {
-        background: teal;
+        background: transparent;
         color: #00FFFF; 
       }
       td {
-        background: teal; 
+        background: transparent;
+        color: white;
       }
       #bmonth {
         font-size: 20px;
-        background: teal;
+        background: transparent;
       }
-
-
-}
-.month {
-        text-allign: center;
-        background-color: teal;
-        font-size: 2em; 
-        letter-spacing: 5px; 
-        color: white; 
-        padding: 25px; 
-
-      }
-table, th, td {
-        width: 100%; 
-        table-layout:fixed; 
-        text-allign: center; 
-        font-size: 16px; 
-        border-collapse: collapse; 
-        border: 1px solid black;   
-      }
- tr, th, td {
-        padding: 20px;
-      }
-      th {
-        background: teal;
-        color: #00FFFF; 
-      }
-      td {
-        background: teal; 
-      }
-      #bmonth {
-        font-size: 20px;
-        background: teal;
-      }
-
-
-
