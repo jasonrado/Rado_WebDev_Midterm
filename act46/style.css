@@ -108,7 +108,7 @@ button:hover{
 }
 
 #left-footer{
-  float: right;
+  float: left;
   width: 27%;
 }
 
@@ -125,5 +125,5 @@ button:hover{
 }
 
 #right-footer{
-  float: left;
+  float: right;
 }
