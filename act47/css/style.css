@@ -1,0 +1,49 @@
+*{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+
+}
+
+body{
+  background-image: url('https://dzone.com/storage/temp/11538581-friend-or-foe-ai.jpg');
+  background-repeat: no-repeat;
+background-color: black;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 125%;
+  border: solid white;
+  border-width: 5px;
+background: transparent;
+}
+.about{
+  font-size: 120%;
+  padding:25px;
+  text-align: justify;
+}
+img{
+  float:left;
+  width:50%;
+  padding: 30px;	
+}
+p {
+  word-spacing: 2px;
+background: transparent;
+}
+h1{
+  font-size: 200%;
+
+}
+.video{
+  text-align: center;
+  padding: 10px;
+}
+ul{
+    list-style-position : inside;
+    list-style-image : url('ai.png');
+    line-height : 1.8em;
+}
