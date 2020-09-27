@@ -7,6 +7,7 @@
 body{
   background-image: url('https://dzone.com/storage/temp/11538581-friend-or-foe-ai.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
 background-color: black;
 }
 
