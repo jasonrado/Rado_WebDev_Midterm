@@ -1,0 +1,130 @@
+*{
+  font-family: 'Arial';
+
+}
+body{
+  background:blue;
+}
+h1 {
+    margin: auto;
+   text-align: center;
+  font-size: 500%;
+  color: white;
+  background: #159897;
+  text-align: center;
+   padding: 25px 0px 25px 0px;
+  width: 100%;
+font-family: 'Open Sans', sans-serif;
+ font-weight:400;
+  text-shadow: 0px 5px #007788;
+}
+#container {
+  width: 40%;
+  margin: auto;
+  background:white;
+}
+.table1 {
+  width: 35%;
+  padding: 10px 0px 0px 20px;
+  background: #e6f2f2;
+  border-left: 25px solid white;
+}
+.table1 th {
+  color: black;
+  text-align: left;
+  font-size: 15px;
+ padding-bottom: 10px;
+
+}
+
+.table1 td {
+    color: black;
+  text-align: left;
+  font-size: 15px;
+ padding-bottom: 10px;
+}
+.table2 {
+  width: 100%;
+  border-left: 25px solid white;
+}
+.table2 th{
+  color: black;
+  font-size: 20px;
+  padding: 10px 25px 0px 25px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+.table2 td {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.table3 {
+  width: 90%;
+  color:#159897;
+  text-align: center;
+  border-collapse: collapse;
+  margin:auto;
+}
+
+.table3 th {
+  padding: 0px 0px 20px 20px;
+  font-size: 20px;
+}
+.table3 td {
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  background: #99cccc;
+  margin:auto;
+  border-collapse: collapse;
+}
+.table4 {
+  width: 100%;
+  border-left: 25px solid white;
+}
+.table4 th{
+  color: black;
+  font-size: 20px;
+  padding: 10px 25px 0px 25px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+.table4 td {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+#input1{
+
+  font-family: 'Arial';
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+   color: black;
+  text-align: left;
+  font-size: 20px;
+  width:80%;
+
+}
+#input2{
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Arial';
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  text-align: center;
+  width: 85%;
+}
+.Submitbutton {
+	background-color: #159897;
+	border: 2px solid black;
+	display: inline-block;
+	cursor: pointer;
+	color: black;
+	font-size: 20px;
+	padding: 10px 20px;
+  margin-right: 20px;
+}
+.Submitbutton:hover {
+	background-color: white;
+}
